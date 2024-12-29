@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f4f6;
+}
+
+.paint-container {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.controls-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.brush-size {
+  width: 128px;
+}
+
+.tool-select {
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 4px 16px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-clear {
+  background-color: #ef4444;
+}
+
+.btn-save {
+  background-color: #3b82f6;
+}
+
+.canvas {
+  border: 1px solid #ccc;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.637);
+}
+
+.color-palette {
+  margin-left: 16px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 8px;
+}
+
+.color-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.color-btn.selected {
+  border: 2px solid black;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.paint-container {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.controls-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 16px;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  outline: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+}
+
+.brush-size {
+  width: 128px;
+}
+
+.tool-select {
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 4px 16px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-clear {
+  background-color: #ef4444;
+}
+
+.btn-save {
+  background-color: #3b82f6;
+}
+
+.color-palette {
+  margin-left: 16px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 8px;
+}
+
+.color-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.color-btn.selected {
+  border: 2px solid black;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.paint-container {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.controls-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.brush-size {
+  width: 128px;
+}
+
+.tool-select {
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 4px 16px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  width: 85px;
+  height: 50px;
+  transition: background-color 0.5s ease;
+}
+
+.tool-btn {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  outline: none;
+  border: none;
+  transition: background-color 0.4s ease;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.tool-btn.active {
+  background-color: #3b82f6;
+  color: white;
+}
+.btn-clear {
+  background-color: #ef4444;
+}
+
+.btn-save {
+  background-color: #3b82f6;
+}
+
+.btn-clear:hover {
+  background-color: #c41111;
+}
+
+.btn-save:hover {
+  background-color: #1d63d3;
+}
+
+.color-palette {
+  margin-left: 16px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 8px;
+}
+
+.color-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.color-btn.selected {
+  border: 2px solid black;
+}
+
+.color-picker-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.color-picker-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.color-picker-input::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.color-picker-input::-webkit-color-swatch {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.color-picker-input::-moz-color-swatch {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.current-color {
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+span {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
