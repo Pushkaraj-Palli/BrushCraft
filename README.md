@@ -73,7 +73,10 @@ To get started with BrushCraft, follow these steps:
 
 ### BrushCraft UI
 
-https://github.com/user-attachments/assets/5f1ae068-f138-460b-825f-b2adc3e540f9
+![Home (2)](https://github.com/user-attachments/assets/6dbffd8e-bdf7-431c-8ad1-7457efcb88f9)
+
+### Created using BrushCraft
+![Demo](https://github.com/user-attachments/assets/080a67ff-6ecb-43f3-9db1-b2530a6583f0)
 
 ## Technologies Used
 
